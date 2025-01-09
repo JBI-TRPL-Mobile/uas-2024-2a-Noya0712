@@ -4,6 +4,7 @@ class LoginScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xFF5AA9E6),
       body: Padding(
           padding: const EdgeInsets.all(20.0),
         child: Center(
@@ -19,7 +20,8 @@ class LoginScreen extends StatelessWidget {
                 SizedBox(height: 10),
                 Text(
                   'login sekarang untuk bisa lebih dekat dengan kami',
-                  style: TextStyle(fontSize: 16),
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 16, color: Colors.white),
                 ),
                 SizedBox(height: 30),
                 Align(
@@ -36,6 +38,8 @@ class LoginScreen extends StatelessWidget {
                 TextField(
                   decoration: InputDecoration(
                     labelText: 'Email',
+                    filled: true,
+                    fillColor: Colors.white,
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
@@ -59,6 +63,8 @@ class LoginScreen extends StatelessWidget {
                   obscureText: true,
                   decoration: InputDecoration(
                     labelText: 'Password',
+                    filled: true,
+                    fillColor: Colors.white,
                     border: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
@@ -84,7 +90,7 @@ class LoginScreen extends StatelessWidget {
                   width: 250,
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/home');
+                      Navigator.pushNamed(context, '/profile');
                     },
                     style: ElevatedButton.styleFrom(
                       padding: EdgeInsets.symmetric(vertical: 16),
@@ -144,11 +150,11 @@ class LoginScreen extends StatelessWidget {
                     child: Text.rich(
                       TextSpan(
                         text: 'Belum punya akun?',
-                        style: TextStyle(fontSize: 14),
+                        style: TextStyle(fontSize: 14, color: Colors.white),
                         children: [
                           TextSpan(
                             text: 'Daftar sekarang',
-                            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.blue),
+                            style: TextStyle(fontSize: 14, fontWeight: FontWeight.bold, color: Colors.purple),
                           )
                         ]
                       )

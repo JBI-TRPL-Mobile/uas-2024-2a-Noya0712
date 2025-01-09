@@ -66,7 +66,7 @@ class WelcomeScreen extends StatelessWidget {
                   width: 120,
                   child: ElevatedButton(
                     onPressed: () {
-                      Navigator.pushNamed(context, '/signup');
+                      Navigator.pushNamed(context, '/register');
                     },
                     style: ElevatedButton.styleFrom(
                       shape: RoundedRectangleBorder(
