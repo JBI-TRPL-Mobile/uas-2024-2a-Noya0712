@@ -5,6 +5,14 @@
 gambar 1 dibawah ini membuat menu welcome atau menu utaman ketika pengguna belum registrasi atau login
 ![Secreenshot yuda](image/1.png)
 
+
+gambar dibawah merupakan menu login
+![Secreenshot yuda](image/2.png)
+
+
+gambar dibawah merupakan menu register
+![Secreenshot yuda](image/3.png)
+
 ![gif yuda](./image/W11-soal12.gif)
 
 A new Flutter project.
