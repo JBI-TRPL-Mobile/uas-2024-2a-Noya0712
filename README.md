@@ -2,6 +2,12 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=17652596&assignment_repo_type=AssignmentRepo)
 # template_project
 
+soal 11
+![Secreenshot yuda1](image/W11-soal11.png)
+
+soal 12
+![gif yuda](./image/W11-soal12.gif)
+
 A new Flutter project.
 
 ## Getting Started
