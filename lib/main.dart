@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:template_project/login/login.dart';
+import 'package:template_project/profile/profile.dart';
 import 'package:template_project/register/register.dart';
 import 'package:template_project/welcome.dart';
 
@@ -23,7 +24,7 @@ class MyApp extends StatelessWidget {
         '/login' : (context) => LoginScreen(),
         '/register': (context) => RegisterScreen(),
         // '/home': (context) => HomeScreen(),
-        // '/profile': (context) => ProfileScreen(),
+        '/profile': (context) => ProfileScreen(),
         // '/messages': (context) => MessagesScreen(),
       },
     );

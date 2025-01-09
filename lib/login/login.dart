@@ -71,7 +71,6 @@ class LoginScreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 10),
-                // Teks Forget Password
                 Align(
                   alignment: Alignment.centerRight,
                   child: TextButton(
